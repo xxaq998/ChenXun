@@ -2067,17 +2067,19 @@ document.addEventListener('pointerover', e => {
 // ---------- style index + memo (shared selection, kept in localStorage) ----------
 const GROUPS = [
   { g: '虐恋', gen: 'Ache', info: '14r / 半小时 · 引导视情况而定', items: [
-    ['白话', 'Plain Talk', '主'],
-    ['微文', 'Tender Prose', '主'],
-    ['温恋', 'Warmth', '主'],
-    ['白骑士', 'White Knight', '副'],
-    ['高剖', 'Dramatic', '副'],
+    ['白话', ' ', '主'],
+    ['微文', ' ', '主'],
+    ['温恋', ' ', '主'],
+    ['白骑士', ' ', '副'],
+    ['高剖', ' ', '副'],
   ] },
   { g: '虚恋', gen: 'Reverie', info: '12r / 半小时', items: [
-    ['白话日常温柔风', 'Daily Warmth', '主'],
-    ['钓系', 'The Lure', '副'],
-    ['引导包容', 'Guide & Embrace', '副'],
-    ['直球', 'Forthright', '副'],
+    ['白话', ' ', '主'],
+    ['日常', ' ', '主'],
+    ['温柔风', ' ', '主'],
+    ['钓系', ' ', '副'],
+    ['引导包容', ' ', '副'],
+    ['直球', ' ', '副'],
   ] },
 ];
 const NAMES = GROUPS.flatMap(g => g.items.map(s => s[0]));
