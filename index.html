@@ -624,7 +624,7 @@
         <div class="st-price">
           <span><b>虚恋</b><i>12r</i><small>/ 半小时</small></span>
           <span><b>虐恋</b><i>14r</i><small>/ 半小时</small></span>
-          <span><b>树洞</b><i>7r</i><small>纯听</small> <i>10r</i><small>帮分析</small></span>
+          <span><b>树洞</b><i>7r</i><small>纯听</small> <i>10r</i><small>帮分析（可deeptalk</small></span>
           <span><b>普</b><i>6r</i><small>/ 半小时</small></span>
           <span class="plus">过晚 11 点 · 总价 +3</span>
         </div>
@@ -1124,7 +1124,7 @@ function layout(W, H, u, k, draw, out){
 function layoutIntro(W, H, out){
   const narrow = W < 720;
   const zs = narrow ? Math.min(W * .041, 16) : 20, es = zs * .72;
-  const zh = narrow ? ['叹缘分浅浅，如雨渐渐。'] : ['叹缘分浅浅，如雨渐渐。'];
+  const zh = narrow ? ['循环的圆 不循环的缘'] : ['循环的圆 不循环的缘'];
   const en = narrow ? ['Our fate runs thin,like rain, falling slowly.'] : ['Our fate runs thin — like rain, falling slowly.'];
   const zsp = zs * .5, zlh = zs * 2.2, elh = es * 1.75;
   let y = H * .46 - (zh.length * zlh + es + en.length * elh) / 2;
@@ -1806,9 +1806,9 @@ const NOTES = [
   { t: '禁止恶搞', en: 'No trolling', tag: 'BOUNDARIES',
     h: '拒绝单内<em>故意抽象恶搞</em>，此类情况<b>不退款</b>。' },
   { t: '不截屏外传', en: 'Kept between us', tag: 'BOUNDARIES',
-    h: '不截屏外传单内记录；有需要保存须事先说明。' },
+    h: '不截屏外传单内记录；有需要保存须事先说明。严禁话术抄袭、二改、二传。' },
   { t: '树洞说明', en: 'Tree hole', tag: 'BEFORE',
-    h: '树洞须说明需要的类型（纯听 7r / 帮分析解决（可deeptalk) 10r，均为半小时）。<br>不确定时长可按半 / 1h 计，<b>多退少补</b>。' },
+    h: '树洞须说明需要的类型（纯听 7r / 帮分析解决 10r，均为半小时）。<br>不确定时长可按半 / 1h 计，<b>多退少补</b>。' },
   { t: '保持尊重', en: 'Mutual respect', tag: 'NOTICE',
     h: '单内保证对彼此的尊重，<em>不接受无理由指责</em>。不合适请早点提出。' },
   { t: '关于三恋', en: 'About us', tag: 'NOTICE',
